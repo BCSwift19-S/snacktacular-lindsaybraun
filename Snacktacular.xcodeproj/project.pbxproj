@@ -19,6 +19,8 @@
 		570FA13D2264409D00A5639C /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FA13C2264409D00A5639C /* ReviewTableViewController.swift */; };
 		572E1C5422644A2A006EB0C5 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E1C5322644A2A006EB0C5 /* Review.swift */; };
 		572E1C5622645346006EB0C5 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E1C5522645346006EB0C5 /* Reviews.swift */; };
+		572E1C58226458DE006EB0C5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E1C57226458DE006EB0C5 /* Photo.swift */; };
+		572E1C5A2264598D006EB0C5 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E1C592264598D006EB0C5 /* Photos.swift */; };
 		573C7B41225258E400C87503 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C7B40225258E400C87503 /* Spot.swift */; };
 		573C7B4322525A1300C87503 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C7B4222525A1300C87503 /* Spots.swift */; };
 		573C7B452252673E00C87503 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C7B442252673E00C87503 /* GoogleService-Info.plist */; };
@@ -42,6 +44,8 @@
 		570FA13C2264409D00A5639C /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
 		572E1C5322644A2A006EB0C5 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		572E1C5522645346006EB0C5 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		572E1C57226458DE006EB0C5 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		572E1C592264598D006EB0C5 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		573C7B40225258E400C87503 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		573C7B4222525A1300C87503 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		573C7B442252673E00C87503 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -90,6 +94,8 @@
 				573C7B40225258E400C87503 /* Spot.swift */,
 				572E1C5522645346006EB0C5 /* Reviews.swift */,
 				572E1C5322644A2A006EB0C5 /* Review.swift */,
+				572E1C592264598D006EB0C5 /* Photos.swift */,
+				572E1C57226458DE006EB0C5 /* Photo.swift */,
 				3E8390E1206597F600512DEA /* SpotsListViewController.swift */,
 				3E0F960920659D9000AE450D /* SpotsTableViewCell.swift */,
 				3E0F960B2065A17500AE450D /* SpotDetailViewController.swift */,
@@ -319,8 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572E1C58226458DE006EB0C5 /* Photo.swift in Sources */,
 				572E1C5622645346006EB0C5 /* Reviews.swift in Sources */,
 				3E8390E2206597F600512DEA /* SpotsListViewController.swift in Sources */,
+				572E1C5A2264598D006EB0C5 /* Photos.swift in Sources */,
 				3E0F96102065AC1A00AE450D /* SpotPhotosCollectionViewCell.swift in Sources */,
 				3E0F960C2065A17500AE450D /* SpotDetailViewController.swift in Sources */,
 				3E0F960E2065AB6400AE450D /* SpotReviewsTableViewCell.swift in Sources */,
