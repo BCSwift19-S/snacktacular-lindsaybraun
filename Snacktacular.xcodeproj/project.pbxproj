@@ -17,6 +17,7 @@
 		3E8390E7206597F600512DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8390E6206597F600512DEA /* Assets.xcassets */; };
 		3E8390EA206597F600512DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8390E8206597F600512DEA /* LaunchScreen.storyboard */; };
 		570FA13D2264409D00A5639C /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FA13C2264409D00A5639C /* ReviewTableViewController.swift */; };
+		572E1C5422644A2A006EB0C5 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E1C5322644A2A006EB0C5 /* Review.swift */; };
 		573C7B41225258E400C87503 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C7B40225258E400C87503 /* Spot.swift */; };
 		573C7B4322525A1300C87503 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C7B4222525A1300C87503 /* Spots.swift */; };
 		573C7B452252673E00C87503 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C7B442252673E00C87503 /* GoogleService-Info.plist */; };
@@ -38,6 +39,7 @@
 		3E8390E9206597F600512DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E8390EB206597F600512DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		570FA13C2264409D00A5639C /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
+		572E1C5322644A2A006EB0C5 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		573C7B40225258E400C87503 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		573C7B4222525A1300C87503 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		573C7B442252673E00C87503 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -84,6 +86,7 @@
 				3E8390DF206597F600512DEA /* AppDelegate.swift */,
 				573C7B4222525A1300C87503 /* Spots.swift */,
 				573C7B40225258E400C87503 /* Spot.swift */,
+				572E1C5322644A2A006EB0C5 /* Review.swift */,
 				3E8390E1206597F600512DEA /* SpotsListViewController.swift */,
 				3E0F960920659D9000AE450D /* SpotsTableViewCell.swift */,
 				3E0F960B2065A17500AE450D /* SpotDetailViewController.swift */,
@@ -318,6 +321,7 @@
 				3E0F960C2065A17500AE450D /* SpotDetailViewController.swift in Sources */,
 				3E0F960E2065AB6400AE450D /* SpotReviewsTableViewCell.swift in Sources */,
 				570FA13D2264409D00A5639C /* ReviewTableViewController.swift in Sources */,
+				572E1C5422644A2A006EB0C5 /* Review.swift in Sources */,
 				57C421CD2256BE5A0092B33E /* UIView+addBorder.swift in Sources */,
 				3E0F960A20659D9000AE450D /* SpotsTableViewCell.swift in Sources */,
 				573C7B41225258E400C87503 /* Spot.swift in Sources */,
