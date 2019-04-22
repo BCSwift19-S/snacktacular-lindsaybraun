@@ -32,6 +32,14 @@ class Photo {
         self.init(image: UIImage(), description: "", postedBy: postedBy, date: Date(), documentUUID: "")
     }
     
+    convenience init(dictionary: [String: Any]) {
+        
+        let title = dictionary["description"] as! String? ?? ""
+        let text = dictionary["postedBy"] as! String? ?? ""
+        let date = dictionary["date"] as! Date? ?? Date()
+        self.init(image: UIimage(), description: description, postedBy: postedBy, date: date, documentUUID: "")
+    }
+    
     func saveData(spot: Spot, completed: @escaping (Bool) -> ()){
         let db = Firestore.firestore()
         let storage = Storage.storage()
